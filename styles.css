@@ -5,6 +5,7 @@
 
 body{
     background-color: rgb(242, 246, 208);
+    font-size: 1rem;
 }
 
 .head{
@@ -57,4 +58,8 @@ body{
 
 .tag{
     text-transform: uppercase;
+}
+
+ol, p{
+    font-family: 'Courier New', Courier, monospace;
 }
