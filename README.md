@@ -10,35 +10,7 @@ as well as teach me important tips when using channels like Discord or Stack Ove
 
 I am currently doing a Udmey course on web development thats given by Dr. Angela Yu, Developer, which will cover topics like Front-End Web Development.
 
-HTML 5
-CSS 3
-Flexbox
-Grid
-Bootstrap 5
-Javascript ES6
-DOM Manipulation
-jQuery
-Bash Command Line
-Git, GitHub, and Version Control
-Backend Web Development
-Node.js
-NPM
-Express.js
-EJS
-REST
-APIs
-Databases
-SQL
-PostgreSQL
-Authentication
-React.js
-React Hooks
-Web Design
-Deployment with GitHub Pages
-Web3 Development on the Internet Computer
-Blockchain technology
-Token contract development
-NFT minting, buying and selling logic
+HTML 5, CSS 3, Flexbox, Grid, Bootstrap 5, Javascript ES6, DOM Manipulation, jQuery, Bash Command Line, Git, GitHub, and Version Control,Backend Web Development, Node.js, NPM, Express, js, EJS, REST, APIs, Databases, SQL, PostgreSQL, Authentication, React.js, React Hooks, Web Design, Deployment with GitHub Pages, Web3 Development on the Internet Computer, Blockchain technology, Token contract development NFT minting, buying and selling logic
 
 So far it has been such a great learning journey to build  smaller projects to test concepts as well as try to use them and see how to break and fix code to make it work as you intend as well as change the way I think about solving problems and learning how to break them into steps that are easy to manage as well as implement 
 
