@@ -26,20 +26,27 @@ body{
 }
 
 
-.tilte-img{
-    height: 200px;
-    width: 300px;
-    border-radius: 10%;
-    float: both;
+.tilte-img {
+        width: 50%;
+        height: 50%;
+        border-radius: 10%;
 }
 
-.left{
-    float: left;
-    clear: right;
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
-.right{
-    float: right;
+@media (min-width: 780px) {
+    .cards{
+
+    }
 }
 
 .pages{
