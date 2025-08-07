@@ -4,32 +4,57 @@
 }
 
 body{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
     background-color: rgb(242, 246, 208);
     font-size: 1rem;
 }
 
 .head{
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    align-items: start;
+    width: 95vw;
+    height: 40vh;
     background-color: rgb(239, 220, 171);
     border: 1px solid black;
-    padding: 10px;
+    border-radius: 5px;
+    padding: 5px;
     margin-right: 10px;
 }
 
-.cards{
-    display: inline-block;
+.box {
+        display: flex;
+        flex-direction: row; /* Arranges the cards side by side */
+        justify-content: space-around; /* Distributes space evenly between and around cards */
+        flex-wrap: wrap; /* Allows cards to wrap to the next line */
+        gap: 20px; /* Provides space between the cards */
+        width: 60vw;
+        height: 70vh;
+}
+
+.cards {
+    display: flex;
+    flex: 1;
     border: 1px solid black;
     padding: 10px;
- Recipe-Finder_work-Branche
+    height: 60vh;
+    width: 50vw;
     border-radius: 10%; 
     background-color: rgb(217, 131, 36);
     margin: 10px;
 }
 
 
- Recipe-Finder_work-Branche
+.tilte-img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+}
 
 .pages{
     color: black;
@@ -37,7 +62,9 @@ body{
 
 .cards:hover {
         transform: translateY(-5px); /* Moves the element up on hover */
-        background-color: rgb(235, 151, 61); /* Changes the background color for an interactive feel */
+        background:linear-gradient(to top, rgb(255, 230, 0), orange); /* Changes the background color for an interactive feel */
+        box-shadow: 0 4px 8px;
+        transition: all 0.3 ease;
 }
 
 .cards:active {
@@ -56,43 +83,6 @@ ol, p{
     font-family: 'Courier New', Courier, monospace;
 }
 
-@media(max-width: 1080px){
-    .tilte-img{
-        height: 300px;
-        width: 200px;
-        border-radius: 10%;
-        padding: 20;
-        float: both;
-    }
-
-    .logo{
-    width: 400px;
-    height: 400px;
-}
-
-    .head{
-    width: 98.5%;
-    background-color: rgb(239, 220, 171);
-    border: 1px solid black;
-    padding: 10px;
-    margin-right: 10px;
-    font-size: 4rem;
-}
-
-    .cards{
-        display: inline-block;
-        border: 1px solid black;
-        padding: 10px;
-        width: 90%;
-        height: 50%;
-        border-radius: 10%; 
-        background-color: rgb(217, 131, 36);
-        align-self: left;
-        font-size: 3.5rem;
-}
-
-    .items{
-        font-size: 4rem;
-    }
-
+a {
+    text-decoration: none;
 }
